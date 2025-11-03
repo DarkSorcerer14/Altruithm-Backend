@@ -17,7 +17,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # -------------------- Load & Prepare --------------------
-CSV_PATH = "charity.csv"
+CSV_PATH = "CharityData_NonProfit_cleaned_FINAL.csv"
 
 def load_data(path: str = CSV_PATH) -> pd.DataFrame:
     df = pd.read_csv(path, dtype=str).fillna("")
