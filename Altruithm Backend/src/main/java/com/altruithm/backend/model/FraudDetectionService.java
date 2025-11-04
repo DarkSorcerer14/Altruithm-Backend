@@ -1,4 +1,4 @@
-package com.altruithm.backend.service;
+package com.altruithm.backend.model;
 
 import com.altruithm.backend.Entity.CharityBasic;
 import com.altruithm.backend.Entity.CharityFinancial;
