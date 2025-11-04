@@ -5,9 +5,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-df = pd.read_csv('charity.csv')
+df = pd.read_csv('CharityData_NonProfit_cleaned_FINAL.csv')
 
-# Combine textual fields
+# Combine textual fields 
 df['combined'] = (
     df['name'].astype(str) + " " +
     df['description'].astype(str) + " " +
