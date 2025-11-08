@@ -21,7 +21,7 @@ public class AltruithmController {
         FraudRiskResponse response = fraudService.analyzeFraudRisk(charityName, amount);
         return ResponseEntity.ok(response);
     }
-    
+
     @GetMapping("/test")
     public String test() {
         return "Altruithm Fraud Detection API is running!";
